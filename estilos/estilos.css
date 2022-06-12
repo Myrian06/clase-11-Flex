@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #e5e5e5;
+}
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 150px;
+    justify-content: space-between;
+   
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px ;
+    width: 300px;
+    margin-top: 30px;
+}
+.texto{
+        display: flex;
+        justify-content:space-around;
+        width: 400px;
+        align-items: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.envio {
+    background-image: url('../delivery.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    height: 500px;
+    width: 45%;
+    background-size: cover;
+}  
+.envio p{
+    position: relative;
+    left: 90px;
+    font-size: 25px;
+    font-weight: bold;
+    color : red;
+}
+.envio a{
+    color: white;
+}
+.podio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    height: 500px;
+    width: 45%;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    
+}
+.podio h2{
+    color: red;
+    text-align: center;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 150px;
+    
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 40%;
+    margin-right: 100px ;
+    margin-top: 40px;
+    
+}
+
